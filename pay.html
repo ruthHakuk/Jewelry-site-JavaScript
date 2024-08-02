@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final Payment Page</title>
+  <link rel="stylesheet" type="text/css" href="pay.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Final Payment</h1>
+    <form id="payment-form">
+      <label for="cardholder-name">Cardholder Name:</label>
+      <input type="text" id="cardholder-name" required>
+
+      <label for="id-number">ID Number:</label>
+      <input type="text" id="id-number" required>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" required>
+
+      <div class="input-group">
+        <div class="expiry-date">
+          <label for="expiry-date">Expiry Date:</label>
+          <input type="date" id="expiry-date" required>
+        </div>
+
+        <div class="cvv">
+          <label for="cvv">CVV:</label>
+          <input type="password" id="cvv" required>
+        </div>
+      </div>
+
+      <button type="submit">Make Payment</button>
+    </form>
+
+    <div id="payment-details"></div> 
+  </div>
+
+  <script src="pay.js"></script> 
+</body>
+</html>
+
+

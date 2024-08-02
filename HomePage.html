@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./HomePage.css">
+</head>
+
+<body>
+  <header id="header">
+  </header>
+  <section class="hero">
+    <h1>log in</h1>
+    <form id="form" onsubmit="chekExsist()" action="./MainPage.html">
+      <input id="email1" type="email" placeholder="UserEmail" required><label></label>
+      <br><br>
+      <input type="text" placeholder="Password" required><label></label>
+      <br><br>
+      <input type="submit">
+    </form>
+  </section>
+  <div id="store">  </div>
+  <div id="styling" hidden style="background-color: bisque;">
+    <h1>choose your styling</h1>
+ <br>
+ <label for="">choose your font style:</label><br>
+    <select type="select" id="font-select">
+      <option >click here</option>
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Helvetica">Helvetica</option>
+      <option value="Tahoma">Tahoma</option>
+      <option value="Comic Sans MS">Comic Sans MS</option>
+      <option value="Trebuchet MS">Trebuchet MS</option>
+      <option value="Palatino">Palatino</option>
+
+
+    </select><br>
+    <p>background color:</p> <input id ="background-color" type="color"><br>
+    <p>letters color:</p><input id="letters-color" type="color"><br>
+  </div>
+
+  <footer>
+    <p1>The site was designed and built by Ruth and Moriya</p1>
+  </footer src="#down">
+
+  <script src="HomePage.js"></script>
+</body>
+
+</html>

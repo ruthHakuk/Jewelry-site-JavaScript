@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./רקע.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+    color: black;
+  }
+  h2{
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
