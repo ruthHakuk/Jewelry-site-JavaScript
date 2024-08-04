@@ -23,7 +23,7 @@ function chekExsist(){
     let passpord=document.getElementsByTagName('input')[1].value
     
 ///sessionStorage שמירה  ב
-     sessionStorage.setItem("email",email)
+    sessionStorage.setItem("email",email)
     sessionStorage.setItem(email,passpord)
  
    ///בדיקה האם המייל כבר קיים
@@ -31,7 +31,6 @@ function chekExsist(){
    if (localStorage.getItem(email)==null){
    event.preventDefault()
    window.location='./finalform.html'}
-    //    window.open('Register.html')
     ///בדיקה אם הסיסמא שגויה
     else 
     if(sessionStorage.getItem(email)!=localStorage.getItem(email)){
@@ -43,8 +42,6 @@ function chekExsist(){
     else {
     event.preventDefault()
     alert("יש לך כבר חשבון")
-        // window.location='MainPage.html'}
-
         let showstyling = document.getElementById('styling');
         showstyling.removeAttribute('hidden');
         showstyling.style.width = '400px';
@@ -58,11 +55,7 @@ function chekExsist(){
         
 
 let formdiv =document.getElementsByTagName('section')[0]
-//let h1=document.getElementsByTagName([h1])[1].hidden="true"
 formdiv.style.display = "none";
-
-// let helloto=document.getElementsByTagName('h1')[1]
-// p.style.innerHTML="hh"
 let newname = document.createElement('p');
 newname.innerHTML = email + " שלום ל";
 newname.style.position = "absolute";
@@ -74,7 +67,6 @@ header.appendChild(newname);
 
 
 ///עיצוב אישי ושמירה
-
 let lettersfont = document.getElementById("font-select");
 lettersfont.addEventListener("change", function(event) {
   let selectedValue = event.target.value;

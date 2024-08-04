@@ -25,7 +25,6 @@ function chekName(){
  password.value=sessionStorage.getItem(Email.value);
  
  function chekAll(){
-           
    /// בדיקה שכל הטופס מלא
      let fullName=document.getElementById('name').value
      if(fullName==""){
@@ -69,11 +68,6 @@ function chekName(){
                  alert('הכנס לפחות ספרה אחת')}
         
          }
- 
    sessionStorage.setItem('name',fullName)
-   localStorage.setItem(fullEmail,fullPass)
-   
- 
- 
-     
+   localStorage.setItem(fullEmail,fullPass)   
  }
