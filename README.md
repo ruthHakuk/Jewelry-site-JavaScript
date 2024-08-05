@@ -22,7 +22,7 @@ Local and Session Storage: Extensive use of local storage and session storage to
 
 # Installation:
 1. Clone the repository-
-git clone https://github.com/yourusername/jewelry-site.git
+git clone https://github.com/ruthHakuk/jewelry-site.git
 2. Open HomePage.html in your browser to view the site.
 
 # Usage:
