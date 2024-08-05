@@ -33,5 +33,7 @@ git clone https://github.com/ruthHakuk/jewelry-site.git
 5.The total price will be displayed in the shopping cart.
 
 
-images of the site
+#images of the site:
+![צילום מסך 2024-08-04 204245](https://github.com/user-attachments/assets/7f9b3704-3209-4d4c-af07-47664a96b8e4)
+
 
