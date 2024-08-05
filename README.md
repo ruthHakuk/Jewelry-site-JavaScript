@@ -34,17 +34,9 @@ git clone https://github.com/ruthHakuk/jewelry-site.git
 
 
 #images of the site:
-
-*login form
+![צילום מסך 2024-08-04 203838](https://github.com/user-attachments/assets/d1b0d694-c8fb-405d-b959-54885ced0f8b)
 ![צילום מסך 2024-08-04 204105](https://github.com/user-attachments/assets/ad70d524-187b-4bc2-a93d-3b11336acec0)
-*Sign-Up form
-
 ![צילום מסך 2024-08-04 204003](https://github.com/user-attachments/assets/b73cbfc4-e44a-4f81-ae14-21383f48acfb)
-*Jewelry Catalog
 ![צילום מסך 2024-08-04 204207](https://github.com/user-attachments/assets/a182d1c1-004b-464c-a011-46ba6f326833)
-
-*product Details
 ![צילום מסך 2024-08-04 204225](https://github.com/user-attachments/assets/67a1ad34-13ca-4a1b-9a63-5179af14f86a)
-
-*shoping Cart
 ![צילום מסך 2024-08-04 204245](https://github.com/user-attachments/assets/7f9b3704-3209-4d4c-af07-47664a96b8e4)
